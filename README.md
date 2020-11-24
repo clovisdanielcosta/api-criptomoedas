@@ -21,7 +21,7 @@ Bootcamp everis Fullstack Developer by Digital Innovation One
 </p>
 
 <p>
-This repository was created as part of bootcamp "everis FullStack Developer" by Digital Innovation One and it's purpose is create a page to request ryptourrencies data from CoinMarketCap API.
+This repository was created as part of bootcamp "everis FullStack Developer" by Digital Innovation One and it's purpose is building a page to request ryptourrencies data from CoinMarketCap API.
 </p>
 
 <p align="center">
@@ -57,6 +57,6 @@ The images in this project were made by repo's owner or taken from another repo 
 
 ## :small_orange_diamond: Thanks
 
-I wanna to say thank you to <b>Digital Innovation One</b> and <b>everis</b> for make this bootcamp possible. Special thanks to BárbI really love blockchain and crypto currencies. Thank you so much. You all are doing a great job. 
+I wanna to say thank you to <b>Digital Innovation One</b> and <b>everis</b> for make this bootcamp possible. Special thanks to Bárbara Casac for teaching in this course. I really love blockchain and crypto currencies. Thank you so much. You all are doing a great job. 
 
 Well done! :clap: :clap:
