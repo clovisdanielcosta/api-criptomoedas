@@ -3,7 +3,8 @@ var apiKey = {
     key: '78aa6893-dd2e-47b7-8831-d6d7b0b106b1'
 }
 
-var fiat = 'USD';
+var fiat = "BRL";
+
 // Method GET Fetch Request
 fetch('https://pro-api.coinmarketcap.com/v1/cryptocurrency/listings/latest?CMC_PRO_API_KEY=' + 
     apiKey.key + `&convert=${fiat}`)
@@ -14,8 +15,9 @@ fetch('https://pro-api.coinmarketcap.com/v1/cryptocurrency/listings/latest?CMC_P
     .then((api) => {
         console.log(api);    
         var texto = "";
-        // GET 10 coins and symbols
-        for (let i = 0; i < 10; i++){
+        
+        // GET coins and symbols
+        for (let i = 0; i < 50; i++){
         var name = "";
         var nameResponse =  api.data[i].name.split(" ");
         if (api.data[i].symbol === "DOT") {
@@ -26,17 +28,24 @@ fetch('https://pro-api.coinmarketcap.com/v1/cryptocurrency/listings/latest?CMC_P
             name = nameResponse[0].toLocaleString().toLowerCase();    
         }
         var symbol = api.data[i].symbol.toLocaleString().toLowerCase();   
-        var price = parseFloat(api.data[i].quote[`${fiat}`].price).toLocaleString('de-DE', { maximumFractionDigits: 2 });    
-
+        var ranking = parseFloat(api.data[i].cmc_rank);
+        var price = parseFloat(api.data[i].quote[`${fiat}`].price).toLocaleString('de-DE', { maximumFractionDigits: 3 });    
+        var percChange24H = parseFloat(api.data[i].quote[`${fiat}`].percent_change_24h).toLocaleString('de-DE', { maximumFractionDigits: 2 });
+        var volume24H = parseFloat(api.data[i].quote[`${fiat}`].volume_24h).toLocaleString('de-DE', { maximumFractionDigits: 2 });
+        var percentColor = "green"; 
+        if(parseFloat(percChange24H) < 0) percentColor = "red";
         //Show API information
             texto = texto + `
             
             <div class="all-crypto">
-                <img src="https://cryptologos.cc/logos/${name}-${symbol}-logo.png?v=007" class="align-self-center mr-3" alt="coin" width="30" height="30">
+                <img src="https://cryptologos.cc/logos/${name}-${symbol}-logo.png?v=007" alt="logo da moeda">
                 <div class="assets">
-                <h5 class="name">${api.data[i].name}</h5>
-                <p class="symbol">${api.data[i].symbol}</p>
-                <p class="price">${price}</p>
+                    <div class="coin-symbol">(${symbol.toUpperCase()})</div>
+                    <div class="coin-name">${api.data[i].name}</div>
+                    <div class="coin-rank">${ranking}</div>
+                    <div class="coin-price">${price}</div>
+                    <div class="coin-volume">${volume24H}</div>
+                    <div class="coin-percent" style="color:${percentColor}">${percChange24H}</div>
                 </div>
             </div>
             

@@ -4,7 +4,6 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/style.css">
-   <!--  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"> -->
     <title>CoinMarketCap</title>
 </head>
 <body>
@@ -15,17 +14,32 @@
     
      
     <section id="container">
+
         <div class="container">
-            <label>BRL</label>
-            <label class="switch">
-                <input type="checkbox">
-                <span class="slider round"></span>
-            </label>
-            <label>USD</label>
-    
+            <div id="header-page">
+                <img src="./img/coinmarketcap-header.png">
+            </div>
+            <!-- header list of coins -->
+            <div id="header-list" class="all-crypto">
+                <img src="./img/coin-market-cap.png">
+                <div class="assets">
+                    <div class="coin-symbol">Símbolo</div>
+                    <div class="coin-name">Nome</div>
+                    <div class="coin-rank">Ranking</div>
+                    <div class="coin-price">Último Preço</div>
+                    <div class="coin-volume">Volume (24H)</div>
+                    <div class="coin-percent"> % (24H)</div>
+                </div>
+            </div>
+            <!-- main div to injection of elements  -->
             <div id="coins">
             </div>
+
         </div>
+        <FOOter>
+            Desenvolvido por Clóvis Daniel Costa
+        </FOOter>
+
     </section>
         
         <script src="./js/main.js" type="text/javascript"></script>

@@ -1,85 +1,97 @@
 body {
-    background-color: gray;
+    background-color: rgb(243, 243, 243);
     margin: 0;
     padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
 }
 
-/* The switch - the box around the slider */
-.switch {
-    position: relative;
-    display: inline-block;
-    width: 60px;
-    height: 34px;
-  }
-  
-  /* Hide default HTML checkbox */
-  .switch input {
-    opacity: 0;
-    width: 0;
-    height: 0;
-  }
-  
-  /* The slider */
-  .slider {
-    position: absolute;
-    cursor: pointer;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    background-color: #ccc;
-    -webkit-transition: .4s;
-    transition: .4s;
-  }
-
-  .slider:before {
-    position: absolute;
-    content: "";
-    height: 26px;
-    width: 26px;
-    left: 4px;
-    bottom: 4px;
-    background-color: white;
-    -webkit-transition: .4s;
-    transition: .4s;
-  }
-   
-  
-input:checked + .slider {
-    background-color: #2196F3;
-  }
-  
-  input:focus + .slider {
-    box-shadow: 0 0 1px #2196F3;
-  }
-  
-  input:checked + .slider:before {
-    -webkit-transform: translateX(26px);
-    -ms-transform: translateX(26px);
-    transform: translateX(26px);
-  }
-  
-  /* Rounded sliders */
-  .slider.round {
-    border-radius: 34px;
-  }
-  
-  .slider.round:before {
-    border-radius: 50%;
-  }
-
 .container{
-    display: flex;
+    display: block;
     align-items: center;
     justify-content: center;
-    margin-left: 15%;
-    margin-right: 15%;
-    background-color: white;
+    margin-left: 5%;
+    margin-right: 5%;
+    background-color: rgb(26, 6, 72);
+}
+
+#header-list{
+    font-size: 15px;
+    height: 40px;
+    background-color: rgb(26, 6, 72);
+    color: white;
+  }
+  
+  #header-page img{
+    width: 100%;
 }
 
 .all-crypto{
     display: flex; 
     align-items: center;
-    
+    height: 80px;
+    font-weight: 600;
+    color: rgba(24, 23, 23, 0.884);
+    background-color: white;
+    border-bottom: 15px solid rgb(243, 243, 243);
+}
+  
+  .all-crypto img{
+    width: 34px;
+    padding: 0 10px 0 10px;
+  }
+  
+  .all-crypto .assets{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    padding: 0 10px 0 10px;
 }
 
+.coin-symbol{
+    text-align: center;
+    width: 5.5%;
+    font-size: 18px;
+}
+
+#header-list .coin-symbol {
+  font-size: 14px;
+}
+
+.coin-name{
+    width: 10%;
+    text-align: left;
+}
+
+.coin-rank{
+    width: 3%;
+    text-align: center;
+}
+
+.coin-price{
+    text-align: right;
+    width: 15%;
+    padding-right: 10px;
+}
+
+.coin-volume{
+    text-align: right;
+    width: 15%;
+    padding-right: 10px;
+}
+
+.coin-percent{
+    text-align: right;
+    width: 5%;
+    padding-right: 10px;
+}
+
+footer{
+    text-align: center;
+    padding-top: 30px;
+    height: 80px;
+    font-size: 16px;
+    font-weight: 600;
+    color:rgb(26, 6, 72);
+}
