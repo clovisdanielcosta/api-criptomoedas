@@ -52,15 +52,15 @@ body {
 .coin-symbol{
     text-align: center;
     width: 5.5%;
-    font-size: 18px;
+    font-size: 24px;
 }
 
 #header-list .coin-symbol {
-  font-size: 14px;
+  font-size: 18px;
 }
 
 .coin-name{
-    width: 10%;
+    width: 20%;
     text-align: left;
 }
 
@@ -77,7 +77,7 @@ body {
 
 .coin-volume{
     text-align: right;
-    width: 15%;
+    width: 20%;
     padding-right: 10px;
 }
 
@@ -85,13 +85,4 @@ body {
     text-align: right;
     width: 5%;
     padding-right: 10px;
-}
-
-footer{
-    text-align: center;
-    padding-top: 30px;
-    height: 80px;
-    font-size: 16px;
-    font-weight: 600;
-    color:rgb(26, 6, 72);
 }
