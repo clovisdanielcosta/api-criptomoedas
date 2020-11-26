@@ -1,5 +1,5 @@
 <h1 align="center">
-:small_red_triangle_down: API Request of Crypto currencies 
+:small_red_triangle_down: API Request of Crypto Currencies 
 </h1>
 
 <p align="center">
