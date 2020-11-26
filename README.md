@@ -80,7 +80,8 @@ This repository was created as part of bootcamp "everis FullStack Developer" by 
 ## :small_orange_diamond: Customizing
 
   - Applied my own pattern of folders structure and filenames. 
-  - Personal choose of fonts and colors. 
+  - Personal choose of fonts and colors.
+  - Applied color red for negative values on the Percentage changes.   
   - New requests of Ranking, Price, Volume and Percentage change of crypto currencies. 
   - Import logo images of each crypto coin.
   - And the most IMPORTANT: creation of new giant coin to put fun on this project a little bit      more. You will see it on this first position of list.

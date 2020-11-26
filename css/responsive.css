@@ -1,0 +1,23 @@
+@media screen and (max-width: 1000px){
+    
+    .all-crypto{
+        display: flex;
+        justify-content: space-evenly;    
+        
+    }
+
+    .coin-name{
+        display: none;
+    }
+
+    .coin-volume{
+        display: none;
+    }
+
+    .coin-percent{
+        text-align: right;
+        width: 10%;
+        padding-right: 10px;
+    }
+
+}
