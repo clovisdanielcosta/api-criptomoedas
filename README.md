@@ -3,7 +3,7 @@
 </p>
 
 <h1 align="center">
-:small_red_triangle_down: API Request of Cryptocurrencies 
+:small_red_triangle_down: API Request of Crypto currencies 
 </h1>
 
 <p align="center">
@@ -21,7 +21,7 @@ Bootcamp everis Fullstack Developer by Digital Innovation One
 </p>
 
 <p>
-This repository was created as part of bootcamp "everis FullStack Developer" by Digital Innovation One and it's purpose is building a page to request ryptourrencies data from CoinMarketCap API.
+This repository was created as part of bootcamp "everis FullStack Developer" by Digital Innovation One and it's purpose is building a page to request crypto currencies data from CoinMarketCap API.
 </p>
 
 <p align="center">
@@ -40,15 +40,49 @@ This repository was created as part of bootcamp "everis FullStack Developer" by 
 
 ## :cloud: Deploy
 
+  Was used GitHub.io to publish this page. IMPORTANT: As a browser extension will be needed to run this app you will only be able to see it in a DESKTOP device. Click on the link below to see it:
+
+  - [https://clovisdanielcosta.github.io/api-criptomoedas/](https://clovisdanielcosta.github.io/api-criptomoedas/)
+
 ## :rocket: Technologies
+  To build this project the follow technologies were used:
+
+  - [Html5](https://developer.mozilla.org/pt-BR/docs/Web/HTML/HTML5)
+  - [Css3](https://www.w3schools.com/css/)
+  - [JavaScript](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript)
+  - [CoinMarketCao - API](https://coinmarketcap.com/api/)
+  - [Moesif Origin & CORS (Browser extension)](https://chrome.google.com/webstore/detail/moesif-origin-cors-change/digfbfaphojjndkpccljibejjbppifbc?hl=pt-BR/)
 
 ## :computer: Installation
 
+  1. Clone this repository in the folder that you want and run index.html on your browser:
+
+  `$ git clone https://github.com/clovisdanielcosta/netflix-interface.git`
+
+  2. On your browser install extension "Moesif Origin & CORS Changer" and turn on to be able to do requests from CoinMarketCap API.
+  3. Run file "index.html".
+  4. If my monthly requests limits was exceeded you will not be able to see the quotations. Then open an account on CoinMarketCap and insert the key on variable "key" on file "./js/main.js".
+
 ## :books: Learning
+  - Better understanding about FETCH Requests.
+  - Improving CSS skills.
+  - Stumble with Moesif Origin & CORS for the first time.
+  - Use of CoinMarketCap API for the first time.
 
 ## :small_orange_diamond: Sharing
 
+  To get crypto logo images for your app you can reach the site below:
+
+  - [https://cryptologos.cc/](https://cryptologos.cc/)
+
 ## :small_orange_diamond: Customizing
+
+  - Applied my own pattern of folders structure and filenames. 
+  - Personal choose of fonts and colors. 
+  - New requests of Ranking, Price, Volume and Percentage change of crypto currencies. 
+  - Import logo images of each crypto coin.
+  - And the most IMPORTANT: creation of new giant coin to put fun on this project a little bit      more. You will see it on this first position of list.
+
 
 ## :small_orange_diamond: License
 

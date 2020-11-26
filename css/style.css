@@ -6,6 +6,18 @@ body {
     font-size: 25px;
 }
 
+#welcome{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: rgb(21, 23, 36);
+}
+
+#welcome img{
+    width: 70%;
+}
+
 .container{
     display: block;
     align-items: center;
@@ -13,6 +25,13 @@ body {
     margin-left: 5%;
     margin-right: 5%;
     background-color: rgb(26, 6, 72);
+}
+
+#controls{
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    background-color: brown;
 }
 
 #header-list{
