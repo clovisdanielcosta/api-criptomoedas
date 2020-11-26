@@ -55,7 +55,7 @@ This repository was created as part of bootcamp "everis FullStack Developer" by 
 
   1. Clone this repository in the folder that you want:
 
-  `$ git clone https://github.com/clovisdanielcosta/netflix-interface.git`
+  `$ git clone https://github.com/clovisdanielcosta/api-criptomoedas.git`
 
   2. On your browser install extension "Moesif Origin & CORS Changer" and turn on to be able to do requests from CoinMarketCap API.
   3. Run file "index.html".
