@@ -40,7 +40,9 @@ This repository was created as part of bootcamp "everis FullStack Developer" by 
 
 ## :cloud: Deploy
 
-  Was used GitHub.io to publish this page. IMPORTANT: As a browser extension will be needed to run this app you will only be able to see it in a DESKTOP device. Click on the link below to see it:
+  Was used GitHub.io to publish this page. IMPORTANT: As a browser extension will be needed to run this app you will only be able to see it in a DESKTOP device. 
+  
+  Follow the instructions in step 2 of section Installation in this README to install the extension needed BEFORE to click on the link below to see it:
 
   - [https://clovisdanielcosta.github.io/api-criptomoedas/](https://clovisdanielcosta.github.io/api-criptomoedas/)
 
