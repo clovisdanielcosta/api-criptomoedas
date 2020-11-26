@@ -80,7 +80,7 @@ This repository was created as part of bootcamp "everis FullStack Developer" by 
   - Applied color red for negative values on the Percentage changes.   
   - New requests of Ranking, Price, Volume and Percentage change of crypto currencies. 
   - Import logo images of each crypto coin.
-  - And the most IMPORTANT: creation of new giant coin to put fun on this project a little bit      more. You will see it on this first position of list.
+  - And the most IMPORTANT: creation of new giant coin to put fun on this project a little bit more. You will see it on the first position of the list.
 
 
 ## :small_orange_diamond: License
