@@ -59,7 +59,7 @@ This repository was created as part of bootcamp "everis FullStack Developer" by 
 
   2. On your browser install extension "Moesif Origin & CORS Changer" and turn on to be able to do requests from CoinMarketCap API.
   3. Run file "index.html".
-  4. If my monthly requests limits was exceeded you will not be able to see the quotations. Then open an account on CoinMarketCap and insert the key on variable "key" on file "./js/main.js".
+  4. If my monthly requests limits was exceeded you will not be able to see the quotations. Then open an account on CoinMarketCap and insert the key which you will receive on variable "key" on file "./js/main.js".
 
 ## :books: Learning
   - Better understanding about FETCH Requests.
