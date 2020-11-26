@@ -53,7 +53,7 @@ This repository was created as part of bootcamp "everis FullStack Developer" by 
 
 ## :computer: Installation
 
-  1. Clone this repository in the folder that you want and run index.html on your browser:
+  1. Clone this repository in the folder that you want:
 
   `$ git clone https://github.com/clovisdanielcosta/netflix-interface.git`
 
