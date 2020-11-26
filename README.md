@@ -7,7 +7,7 @@
 </h1>
 
 <p align="center">
-  <img  alt="Logo CoinMarketCap" src="" width="40%">
+  <img  alt="Logo CoinMarketCap" src="./img/coin-market-cap.png" width="15%">
 </p>
 
 <h2 align="center">
