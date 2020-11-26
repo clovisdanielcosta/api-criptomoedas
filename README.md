@@ -35,7 +35,7 @@ This repository was created as part of bootcamp "everis FullStack Developer" by 
 </p>
 
 <p align="center">
-  <img alt="Gif animado do projeto" src="" width="100%">
+  <img alt="Gif animado do projeto" src="./img/dio-api-cripto.gif" width="100%">
 </p>
 
 ## :cloud: Deploy
