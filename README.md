@@ -1,7 +1,3 @@
-<p align="center">
-  <img  alt="under development" src="./img/in-development.png" width="70%">
-</p>
-
 <h1 align="center">
 :small_red_triangle_down: API Request of Crypto currencies 
 </h1>
