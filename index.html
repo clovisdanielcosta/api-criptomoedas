@@ -1,37 +1,28 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./css/style.css">
-    <link rel="stylesheet" href="./css/responsive.css">
-    <title>CoinMarketCap</title>
+    <link rel="stylesheet" href="css/index.css">
+    <title>Netflix</title>
 </head>
-<body onload="updateQuotes()">
-        <div class="container">
-            <div id="header-page">
-                <img src="./img/coinmarketcap-header.png">
-            </div>
-            <!-- header list of coins -->
-            <div id="header-list" class="all-crypto">
-                <img src="./img/coin-market-cap.png">
-                <div class="assets">
-                    <div class="coin-symbol">Símbolo</div>
-                    <div class="coin-name">Nome</div>
-                    <div class="coin-rank">Ranking</div>
-                    <div class="coin-price">Último Preço</div>
-                    <div class="coin-volume">Volume (24H)</div>
-                    <div class="coin-percent"> % (24H)</div>
-                </div>
-            </div>
-            <!-- main div to injection of elements  -->
-            <div id="coins-dio">
-            </div>
-            <div id="coins">
-            </div>
-
+<body onload="">
+    <div class="container">
+        <div id="privacy">
+             <H1>CoinMarketCap</H1>
+             <h2>Aviso: Para visualizar este site você precisará instalar a extensão<br/> 
+                <a  id="extension" 
+                    href="https://chrome.google.com/webstore/detail/moesif-origin-cors-change/digfbfaphojjndkpccljibejjbppifbc?hl=pt-BR/" 
+                    target="_blank">
+                    Moesif Origin & CORS Changer</a><br/>
+                    no seu navegador.</h2>
+             <br/>
+             <p>Nós usamos cookies para melhorar a experiência do usuário.<br/>
+                Ao continuar você indica concordar com nossa <b>política de privacidade</b>. 
+             </p>
+            <button onclick="openPage()">Aceito</button>
         </div>
-        
-        <script src="./js/main.js" type="text/javascript"></script>
-    </body>
-    </html>
+    </div>
+        <script type="text/javascript" src="js/index.js"></script> 
+</body>
+</html>
